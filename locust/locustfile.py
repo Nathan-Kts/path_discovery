@@ -75,4 +75,4 @@ class UserBehavior(TaskSet):
 
 class WebsiteUser(FastHttpUser):
     tasks = [UserBehavior]
-    wait_time = constant(0.01)
+    wait_time = constant(1)
