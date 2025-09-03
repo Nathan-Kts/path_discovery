@@ -69,6 +69,8 @@ class UserBehavior(TaskSet):
 
     tasks = {
         browseProduct: 1,
+        setCurrency: 2,
+        checkout: 1
     }
 
 class WebsiteUser(FastHttpUser):
