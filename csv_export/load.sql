@@ -1,0 +1,12 @@
+COPY docker FROM 'csv_export/docker.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY futex_wait FROM 'csv_export/futex_wait.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY futex_wake FROM 'csv_export/futex_wake.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY k8s FROM 'csv_export/k_s.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY linux_consts FROM 'csv_export/linux_consts.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY process_context FROM 'csv_export/process_context.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY socket_context FROM 'csv_export/socket_context.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY socket_inet FROM 'csv_export/socket_inet.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY socket_map FROM 'csv_export/socket_map.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY taskstats FROM 'csv_export/taskstats.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY tcp_discovery FROM 'csv_export/tcp_discovery.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
+COPY vfs FROM 'csv_export/vfs.csv' (FORMAT 'csv', quote '"', delimiter ',', header 1);
